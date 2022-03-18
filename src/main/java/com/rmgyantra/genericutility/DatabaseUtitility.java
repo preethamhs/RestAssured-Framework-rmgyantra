@@ -17,8 +17,7 @@ public class DatabaseUtitility {
 	 		DriverManager.registerDriver(driver);
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/projects","root","root");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				
 		}
 	
 	}
@@ -28,8 +27,7 @@ public class DatabaseUtitility {
       try {
 		conn.close();
 	} catch (SQLException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		
 	}
 	}
 	
@@ -59,13 +57,13 @@ public class DatabaseUtitility {
 				
 			}
 		} catch (SQLException e) {
-			e.printStackTrace();
+		
 		}
 		if(flag) {
-			System.out.println("");
+			System.out.println("Project name is present");
 		}
 		else {
-			
+			System.out.println("Project name is not present");
 		}
 		return actData;
 	}
