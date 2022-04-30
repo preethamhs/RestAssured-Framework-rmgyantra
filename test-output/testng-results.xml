@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2194" started-at="2022-03-27T13:18:06 IST" finished-at="2022-03-27T13:18:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2194" started-at="2022-03-27T13:18:06 IST" finished-at="2022-03-27T13:18:08 IST">
+      <class name="com.rmgyantra.testscripts.CreateResource">
+        <test-method status="PASS" signature="Bs()[pri:0, instance:com.rmgyantra.testscripts.CreateResource@63440df3]" name="Bs" is-config="true" duration-ms="704" started-at="2022-03-27T13:18:05 IST" finished-at="2022-03-27T13:18:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bs -->
+        <test-method status="PASS" signature="createResource()[pri:0, instance:com.rmgyantra.testscripts.CreateResource@63440df3]" name="createResource" duration-ms="2172" started-at="2022-03-27T13:18:06 IST" finished-at="2022-03-27T13:18:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResource -->
+        <test-method status="PASS" signature="as()[pri:0, instance:com.rmgyantra.testscripts.CreateResource@63440df3]" name="as" is-config="true" duration-ms="7" started-at="2022-03-27T13:18:08 IST" finished-at="2022-03-27T13:18:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- com.rmgyantra.testscripts.CreateResource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
